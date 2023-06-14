@@ -1,0 +1,71 @@
+/* 
+╔══════════════════════════════════════════════════╗
+║                Curso Front-End                   ║
+║                   Tarea Nº 6                     ║
+╠══════════════════════════════════════════════════╣
+║ Alumno: Alfredo López Allende                    ║
+║ RUT   : XX.XXX.XXX-3                             ║
+║ Fecha Entrega: 18 de junio de 2023               ║
+╚══════════════════════════════════════════════════╝
+*/
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    color: #f1f6f7;
+}
+
+h3 {
+    font-size: 22px;
+    color: #01171b;
+}
+
+p {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+[class^="layout-"] {
+    border: 1px solid #080827;
+}
+.layout-header {
+    background-color: #b9d7f0;
+}
+
+.layout-header h2, h3 {
+    color: #0000FF;
+}
+.layout-fibonacci {
+    background-color: #30A2FF;
+}
+
+.layout-par, .layout-impar {
+    background-color:  #d5dbdb ;
+}
+
+.layout-par, .layout-impar, h2 {
+    color:  #000 ;
+}
+
+.layout-pokemon-mayusculas {
+    background-color: #FFFF00;
+}
+
+.layout-pokemon-mayusculas h2 {
+    color: #0000FF;
+}
+
+.layout-pokemon-fuego {
+    background-color: #00FF00;
+}
+
+.layout-pokemon-fuego h2, p {
+    color: #000000;
+}
+
+#pokemon-original, #pokemon-mayusculas {
+    color: #0000FF;
+}
